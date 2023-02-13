@@ -32,7 +32,8 @@ export default {
     return {};
   },
   methods: {
-    selectItem(index) {
+    selectItem(index, indexPath) {
+      console.log("header index:" + index + ":" + indexPath)
       this.$emit("selected", index);
     },
   },
