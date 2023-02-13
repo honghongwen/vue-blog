@@ -20,7 +20,7 @@
       </el-menu>
     </el-aside>
 
-    <el-main>
+    <el-main style="padding: 0">
       <Markdown :content="content"></Markdown>
     </el-main>
   </el-container>

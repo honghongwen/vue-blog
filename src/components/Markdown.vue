@@ -1,5 +1,5 @@
 <template>
-  <div v-html="data"></div>
+  <div v-html="data" style="margin-top: -20px"></div>
 </template>
 
 

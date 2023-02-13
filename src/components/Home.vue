@@ -6,7 +6,6 @@
     <el-main style="padding: 0">
       <Body :items="bodyItems" :topic="navItems[currentTopicIndex].title"></Body>
     </el-main>
-    <el-footer id="footer"> footer </el-footer>
   </el-container>
 </template>
 
@@ -55,11 +54,5 @@ export default {
   margin-top: 30px;
   height: 800px;
 }
-#footer {
-  text-align: center;
-  background-color: bisque;
-  height: 40px;
-  line-height: 40px;
-  color: #717171;
-}
+
 </style>
